@@ -7,3 +7,9 @@ Copy `proxy.conf.json` file from `DevConnector-FrontEnd` repository to the gener
 Run first backend through command `npm run server` in `DevConnector-BackEnd` folder in terminal.
 Then run client through command `npm start` in `DevConnector-BackEnd\client` folder in another terminal. 
 Go to browser and check the website using `http:\\localhost:4200` URL.
+
+
+------------------------------------------------------------------------------------------------------------------
+Since application is in development mode, you must have `nodejs`, `mongodb` and `mongodbcompass`.
+In `keys.js` of `config` folder, you must provide mongodb URI in "mongoURI" parameter such as "mongodb://127.0.0.1:27017/devconnector".
+You will see all the database related details in `mongodbcompass`.
